@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Atlas - Developer Profile</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2ff;
+            margin: 0;
+            padding: 40px 20px;
+            color: #1e293b;
+        }
+
+        .profile-card {
+            max-width: 450px;
+            margin: 30px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .avatar {
+            width: 90px;
+            height: 90px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            background: #2563eb;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        h1 {
+            margin-bottom: 8px;
+            color: #1d4ed8;
+        }
+
+        h2 {
+            margin-top: 0;
+            font-size: 18px;
+            color: #64748b;
+            font-weight: normal;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .skills {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skills li {
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 8px 12px;
+            border-radius: 20px;
+        }
+
+        .profile-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+        }
+
+        .profile-link:hover {
+            background: #1e40af;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <article class="profile-card">
+            <div class="avatar" aria-hidden="true">J</div>
+
+            <h1>Jayesh</h1>
+            <h2>Student Developer</h2>
+
+            <p>
+                Hello! I am learning web development and building
+                projects to improve my coding, teamwork, and
+                problem-solving skills.
+            </p>
+
+            <h3>My Skills</h3>
+
+            <ul class="skills">
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+            </ul>
+
+            <a
+                class="profile-link"
+                href="https://github.com/Jayesh-Gi"
+                aria-label="Explore Jayesh's GitHub projects"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Explore Jayesh's GitHub projects
+            </a>
+        </article>
+    </main>
+</body>
+</html>
